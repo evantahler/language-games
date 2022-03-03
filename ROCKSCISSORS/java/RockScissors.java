@@ -162,6 +162,8 @@ public class RockScissors {
                     System.out.println();
                     System.out.println("THANKS FOR PLAYING!!");
                     gameState = GAME_STATE.GAME_OVER;
+                default:
+                    break;
             }
         } while (gameState != GAME_STATE.GAME_OVER);
     }
