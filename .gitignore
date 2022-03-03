@@ -1,3 +1,4 @@
 .DS_Store
-*/java/*.class
+*/_java/*.class
+misc/*.class
 .java-version

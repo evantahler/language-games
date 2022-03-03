@@ -21,21 +21,25 @@ Don't forget to install the VSCode language pack for intellisense!
 
 ## Running
 
-Java is a compiled language and you need ot compile your code to run
+Java is a compiled language and could compile your code to run, especially if there is more than one file involved.
 
 ```bash
 # From within the /java folder of this project
 javac RockScissors.java
 ```
 
-Now you can run it
+Or, you can run it without compilation
 
-```
+```bash
 java RockScissors.java
 ```
+
+Learn more: https://stackoverflow.com/questions/55794907/cant-find-mainstring-method-in-class-tapedeck-the-main-method-is-in-the-o
 
 ## Notes
 
 1. Filename MUST match class names
 2. Very OOO
 3. `main()` is special. Any class with a main() method will be run
+4. You need `;`
+5. Classes in the same package are auto-imported
