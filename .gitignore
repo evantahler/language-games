@@ -2,3 +2,5 @@
 */_java/*.class
 misc/*.class
 .java-version
+.gradle
+*/build
